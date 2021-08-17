@@ -3,7 +3,6 @@ FROM atom63/qt-docker:linux-bullseye-cross-x86_64-armv7a
 USER root
 
 RUN apt update && apt full-upgrade -y && apt install -y --no-install-recommends\
-    qt5-default:armhf \
     qttools5-dev:armhf  \
     qtdeclarative5-dev:armhf  \
     qtbase5-dev:armhf  \

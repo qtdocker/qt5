@@ -3,7 +3,6 @@ FROM atom63/qt-docker:linux-bullseye-x86_64
 USER root
 
 RUN apt update && apt full-upgrade -y && apt install -y \
-    qt5-default \
     qttools5-dev \
     qtdeclarative5-dev \
     qtbase5-dev \
