@@ -11,6 +11,7 @@ RUN apt update && apt full-upgrade -y && apt install -y --no-install-recommends\
     libqt5svg5-dev:armhf  \
     libqt5serialport5-dev:armhf  \
     qtbase5-private-dev:armhf  \
+	qtscript5-dev:armhf \
     && apt-get -qq clean \
     && rm -rf /var/lib/apt/lists/*
 
