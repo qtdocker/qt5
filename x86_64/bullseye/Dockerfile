@@ -11,6 +11,7 @@ RUN apt update && apt full-upgrade -y && apt install -y \
     libqt5svg5-dev \
     libqt5serialport5-dev \
     qtbase5-private-dev \
+	qtscript5-dev \
     && apt-get -qq clean \
     && rm -rf /var/lib/apt/lists/*
 
